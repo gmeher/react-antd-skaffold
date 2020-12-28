@@ -1,25 +1,7 @@
 
 
-<h1 align="center">React Antd Admin</h1>
+<h1 align="center">React Antd skaffold</h1>
 
-<div align="center">
-
-The best practices for React Hooks and Typescript.
-
-<a href="https://github.com/facebook/react">
-  <img src="https://img.shields.io/badge/react-16.13.1-brightgreen" alt="React">
-</a>
-<a href="https://github.com/ant-design/ant-design">
-  <img src="https://img.shields.io/badge/ant--design-4.1.0-brightgreen" alt="ant-design">
-</a>
-<a href="https://github.com/microsoft/TypeScript" rel="nofollow">
-  <img src="https://img.shields.io/badge/typescript-3.7.5-brightgreen" alt="Typescript">
-</a>
-<a href="https://github.com/reduxjs/redux" rel="nofollow">
-  <img src="https://img.shields.io/badge/redux-4.0.5-brightgreen" alt="Redux">
-</a>
-
-</div>
 
 
 
