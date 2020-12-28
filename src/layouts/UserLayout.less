@@ -1,0 +1,62 @@
+// @import '~antd/dist/antd.less';
+@import './var.less';
+
+html[data-theme='dark'] {
+  @import '../assets/styles/dark-dust.less';
+}
+html[data-theme='light'] {
+  .login-container {
+    background-color: white;
+  }
+}
+body {
+  background-color: #f3f4f4;
+}
+.ant-pro-basicLayout-content {
+  margin: 17px;
+  // margin-bottom: 11px;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  // background: @layout-body-background;
+
+  .content {
+    flex: 1;
+    padding: 32px 0;
+
+    .top {
+      text-align: center;
+
+      .header {
+        height: 44px;
+        line-height: 44px;
+
+        a {
+          text-decoration: none;
+        }
+        .logo {
+          height: 44px;
+          margin-right: 16px;
+        }
+      }
+
+      .desc {
+        margin-top: 12px;
+        margin-bottom: 40px;
+        color: @text-color-secondary;
+        font-size: @font-size-base;
+      }
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  .ant-pro-sider-logo {
+    background-color:  #222222;
+  }
+}
+
